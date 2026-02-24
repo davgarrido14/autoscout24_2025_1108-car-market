@@ -1,10 +1,10 @@
-# 🚗 Used Car Market Analysis — Autoscout24 (Dataset: 2025‑11‑08)
+#  Used Car Market Analysis — Autoscout24 (Dataset: 2025‑11‑08)
 A data exploration project by David
 
-📌 Overview
+Overview
 This project analyzes 118,382 used car listings from Autoscout24, collected on 2025‑11‑08. The goal is to understand pricing patterns, brand behavior, vehicle age distribution, fuel types, and broader market dynamics. The analysis combines statistical methods, visual exploration, and data cleaning to uncover meaningful trends in the European used‑car market.
 
-## 📊 Key Findings
+##  Key Findings
 1. Price Distribution (after removing top 1%)
 The price distribution is right‑skewed, even after trimming the top 1% of extreme luxury outliers. Most cars fall between €10,000 and €40,000, with frequency dropping steadily as prices rise.
 
@@ -120,7 +120,7 @@ Niche brands appear as tiny rectangles.
 
 This visualization makes the market structure immediately clear.
 
-## 🧠 Statistical Insight: Brand Matters — A Lot
+##  Statistical Insight: Brand Matters — A Lot
 An ANOVA test comparing price across brands produced:
 
 Code
@@ -134,7 +134,7 @@ Brand is one of the strongest predictors of price in the dataset.
 
 The effect size is extremely large.
 
-## 🚀 Next Steps
+##  Next Steps
 Planned additions to the project:
 
 Regression modeling to predict price
@@ -147,7 +147,7 @@ Country‑level comparisons (if data becomes available)
 
 Interactive dashboards (Plotly or Streamlit)
 
-# 🎯 Summary
+#  Summary
 Your analysis paints a clear picture of the used‑car market:
 
 The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.

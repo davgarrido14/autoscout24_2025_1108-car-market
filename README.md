@@ -156,3 +156,12 @@ Brand identity is one of the strongest drivers of price.
 Luxury brands create extreme outliers that require careful handling.
 
 The dataset reflects real‑world trends: electrification is growing but not yet dominant.
+
+# Repository Contents
+Autoscout.ipynb — Jupyterlab notebook
+
+data/ — Zenodo https://zenodo.org/records/17643343
+
+screenshots/ — Graphs insights
+
+README.md — project documentation

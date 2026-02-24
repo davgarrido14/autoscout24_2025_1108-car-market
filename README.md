@@ -1,10 +1,10 @@
-#🚗 Used Car Market Analysis — Autoscout24 (Dataset: 2025‑11‑08)
+# 🚗 Used Car Market Analysis — Autoscout24 (Dataset: 2025‑11‑08)
 A data exploration project by David
 
 📌 Overview
 This project analyzes 118,382 used car listings from Autoscout24, collected on 2025‑11‑08. The goal is to understand pricing patterns, brand behavior, vehicle age distribution, fuel types, and broader market dynamics. The analysis combines statistical methods, visual exploration, and data cleaning to uncover meaningful trends in the European used‑car market.
 
-##📊 Key Findings
+## 📊 Key Findings
 1. Price Distribution (after removing top 1%)
 The price distribution is right‑skewed, even after trimming the top 1% of extreme luxury outliers. Most cars fall between €10,000 and €40,000, with frequency dropping steadily as prices rise.
 
@@ -16,7 +16,7 @@ Luxury cars exist but represent a small fraction of listings.
 
 Removing the top 1% gives a much clearer view of the “real” market.
 
-##2. Year Distribution
+## 2. Year Distribution
 The dataset is heavily concentrated in recent model years, with a sharp rise starting around 2000 and peaking around 2023.
 
 This reflects:
@@ -27,7 +27,7 @@ Very old cars (pre‑1980) are rare and likely represent collector or specialty 
 
 The dataset aligns with typical consumer behavior: buyers prefer newer models with modern features.
 
-##3. Fuel Consumption Distribution
+## 3. Fuel Consumption Distribution
 Fuel consumption clusters strongly between 0 and 20 L/100km, with a clear peak in the lower end of that range.
 
 Interpretation:
@@ -38,7 +38,7 @@ Extremely high consumption values exist but are rare (likely SUVs, sports cars, 
 
 The distribution supports the idea that efficiency remains a key factor in the used‑car market.
 
-##4. Fuel Category Breakdown
+## 4. Fuel Category Breakdown
 Gasoline and Diesel dominate the dataset:
 
 Gasoline: ~50k listings
@@ -51,7 +51,7 @@ LPG, CNG, and Ethanol are niche.
 
 This mirrors the current European market, where electrification is growing but still far from overtaking traditional fuel types in the used‑car segment.
 
-##5. Car Brand Frequency
+## 5. Car Brand Frequency
 The most common brands in the dataset are:
 
 BMW
@@ -72,7 +72,7 @@ Strong brand loyalty and demand
 
 Smaller brands appear but with much lower frequency.
 
-##6. Price Distribution by Brand
+## 6. Price Distribution by Brand
 Boxplots reveal massive differences between brands:
 
 Bugatti, Rolls‑Royce, Maybach sit at the extreme high end.
@@ -85,7 +85,7 @@ BMW, Audi, Mercedes‑Benz show broad distributions, reflecting diverse model li
 
 Using a logarithmic scale makes these differences interpretable without letting ultra‑luxury brands distort the entire plot.
 
-##7. Top 12 Brands — Focused Price Comparison
+## 7. Top 12 Brands — Focused Price Comparison
 When limiting the analysis to the 12 most common brands, the price distributions become much clearer:
 
 Aston Martin and Porsche still show high‑end outliers.
@@ -96,7 +96,7 @@ Hyundai, Suzuki, Opel cluster tightly at lower prices.
 
 This filtered view avoids distortion from rare luxury brands and highlights mainstream market behavior.
 
-##8. Price vs. Year by Brand
+## 8. Price vs. Year by Brand
 Plotting price against year for each brand shows:
 
 Newer cars tend to be more expensive (expected).
@@ -109,7 +109,7 @@ Luxury brands show extreme variance — older models can still command high pric
 
 This reinforces the idea that brand identity strongly influences depreciation.
 
-##9. Market Share Treemap
+## 9. Market Share Treemap
 A treemap of listing counts shows:
 
 BMW, Porsche, Mercedes‑Benz, Audi dominate the dataset.
@@ -120,7 +120,7 @@ Niche brands appear as tiny rectangles.
 
 This visualization makes the market structure immediately clear.
 
-##🧠 Statistical Insight: Brand Matters — A Lot
+## 🧠 Statistical Insight: Brand Matters — A Lot
 An ANOVA test comparing price across brands produced:
 
 Code
@@ -134,7 +134,7 @@ Brand is one of the strongest predictors of price in the dataset.
 
 The effect size is extremely large.
 
-##🚀 Next Steps
+## 🚀 Next Steps
 Planned additions to the project:
 
 Regression modeling to predict price
@@ -147,7 +147,7 @@ Country‑level comparisons (if data becomes available)
 
 Interactive dashboards (Plotly or Streamlit)
 
-#🎯 Summary
+# 🎯 Summary
 Your analysis paints a clear picture of the used‑car market:
 
 The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.

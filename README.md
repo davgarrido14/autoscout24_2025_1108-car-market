@@ -148,7 +148,6 @@ Country‑level comparisons (if data becomes available)
 Interactive dashboards (Plotly or Streamlit)
 
 #  Summary
-Your analysis paints a clear picture of the used‑car market:
 
 The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.
 

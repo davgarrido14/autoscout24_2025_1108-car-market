@@ -4,6 +4,19 @@ A data exploration project by David
 Overview
 This project analyzes 118,382 used car listings from Autoscout24, collected on 2025‑11‑08. The goal is to understand pricing patterns, brand behavior, vehicle age distribution, fuel types, and broader market dynamics. The analysis combines statistical methods, visual exploration, and data cleaning to uncover meaningful trends in the European used‑car market.
 
+#  Summary
+
+The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.
+
+Brand identity is one of the strongest drivers of price.
+
+Luxury brands create extreme outliers that require careful handling.
+
+The dataset reflects real‑world trends: electrification is growing but not yet dominant.
+
+The Dataset Represents a Premium-oriented Segment, with the absence of big car producers.
+
+
 ##  Key Findings
 1. Price Distribution (after removing top 1%)
 The price distribution is right‑skewed, even after trimming the top 1% of extreme luxury outliers. Most cars fall between €10,000 and €40,000, with frequency dropping steadily as prices rise.
@@ -120,6 +133,10 @@ Niche brands appear as tiny rectangles.
 
 This visualization makes the market structure immediately clear.
 
+## 10.  The Dataset Represents a Premium-oriented Segment
+
+Although the dataset contains approximately 120,000 listings from AutoScout24, its brand distribution is structurally skewed toward premium and luxury manufacturers (e.g., Mercedes-Benz, BMW, Rolls-Royce), while major European mass-market brands such as Toyota and Peugeot are absent. This indicates the dataset reflects a premium-oriented segment of the used-car market rather than the overall European market structure.
+
 ##  Statistical Insight: Brand Matters — A Lot
 An ANOVA test comparing price across brands produced:
 
@@ -147,15 +164,7 @@ Country‑level comparisons (if data becomes available)
 
 Interactive dashboards (Plotly or Streamlit)
 
-#  Summary
 
-The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.
-
-Brand identity is one of the strongest drivers of price.
-
-Luxury brands create extreme outliers that require careful handling.
-
-The dataset reflects real‑world trends: electrification is growing but not yet dominant.
 
 # Repository Contents
 Autoscout.ipynb — Jupyterlab notebook

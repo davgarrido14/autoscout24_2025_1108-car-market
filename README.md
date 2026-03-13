@@ -167,6 +167,8 @@ Interactive dashboards (Plotly or Streamlit)
 
 
 # Repository Contents
+Autoscout.pbix - Power BI
+
 Autoscout.ipynb — Jupyterlab notebook
 
 data/ — Zenodo https://zenodo.org/records/17643343

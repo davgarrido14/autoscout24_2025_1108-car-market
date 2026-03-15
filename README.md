@@ -4,6 +4,9 @@ A data exploration project by David
 Overview
 This project analyzes 118,382 used car listings from Autoscout24, collected on 2025‑11‑08. The goal is to understand pricing patterns, brand behavior, vehicle age distribution, fuel types, and broader market dynamics. The analysis combines statistical methods, visual exploration, and data cleaning to uncover meaningful trends in the European used‑car market.
 
+# Data limitations
+This dataset is a pre‑filtered subset of Autoscout listings. Several major brands (e.g., Toyota, Renault, Opel, Skoda, Peugeot, Nissan, Kia) are not present or only partially represented. As a result, the insights shown here reflect only this subset and should not be interpreted as a full picture of the European car market.
+
 #  Summary
 
 The market is dominated by recent, mid‑priced, gasoline/diesel vehicles.
